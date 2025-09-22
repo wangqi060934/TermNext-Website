@@ -1,0 +1,19 @@
+{
+	"Hero": {
+		"h1": "An SSH client built for HarmonyOS",
+		"h2": "SSH interactive terminal and file transfer support\nBuilt to deliver a seamless connection experience for developers"
+	},
+	"Feature": {
+		"h2": "Our Feature"
+	},
+	"CTA": {
+		"h2": "Try TermNext Now",
+		"h3": "Start your remote terminal journey today!"
+	},
+	"CTAButton": {
+		"icp": "鄂ICP备2025142085号-1",
+		"contact": "Contact：wangqi060934#gmail.com",
+		"btn1": "Available on HUAWEI AppGallery",
+		"btn2": "View Docs"
+	}
+}

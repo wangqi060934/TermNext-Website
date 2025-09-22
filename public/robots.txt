@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://termnext.com
+
+# Sitemaps
+Sitemap: https://termnext.com/sitemap.xml
