@@ -29,9 +29,9 @@ export default function Navbar() {
 	return (
 		<header className='w-full relative z-50 bg-base-100 p-5 pb-0 container mx-auto md:mb-5 flex justify-between items-center'>
 			<a
-				aria-label='landing page template'
+				aria-label='change language'
 				className='flex items-center w-1/2 md:w-1/5'
-				title='landing page template'
+				title='change language'
 				href={`/${langName}`}
 			>
 				<Image

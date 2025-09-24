@@ -32,9 +32,9 @@ export default function Footer() {
 			<div className='container mx-auto flex flex-col md:flex-row justify-between items-center md:items-end gap-2 text-sm'>
 				<div className='flex flex-col items-center md:items-start'>
 					<a
-						aria-label='landing page template'
+						aria-label='TermNext'
 						className='flex items-center mb-3'
-						title='landing page template'
+						title='TermNext'
 						// href={`/${langName}`}
 					>
 						<Image
@@ -64,6 +64,24 @@ export default function Footer() {
 					</p>
 				</div>
 
+				<div className='flex justify-center w-full md:w-auto md:justify-center mt-2 md:mt-0'>
+					<a
+						href="https://beian.mps.gov.cn/#/query/webSearch?code=42018502008172"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="flex items-center"
+						aria-label={dict && dict.CTAButton && dict.CTAButton.beian}
+					>
+						<Image
+							src="/beian_logo.png"
+							width={20}
+							height={20}
+							alt="beian logo"
+							className="inline-block mr-1"
+						/>
+						{dict && dict.CTAButton && dict.CTAButton.beian}
+					</a>
+				</div>
 				<p
 					onClick={() => window.open('https://beian.miit.gov.cn/', '_blank')}
 					role="button"
